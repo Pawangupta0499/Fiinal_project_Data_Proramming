@@ -15,6 +15,7 @@ collection1 = database['HalfHourlyRegionalStats']
 collection2 = database['OverallCarbonStats'] 
 
 app = dash.Dash(__name__)
+server = app.server
 
 
 def get_plot_data_collection2():
