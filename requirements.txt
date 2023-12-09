@@ -2,3 +2,4 @@ dash==2.6.0
 pandas
 gunicorn
 pymongo
+flask==2.0.0
