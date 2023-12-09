@@ -4,9 +4,7 @@
 # In[9]:
 
 
-import dash
-from dash import dcc, html
-from dash.dependencies import Input, Output
+from dash import Dash, dcc, html, Input, Output
 from pymongo import MongoClient
 
 client = MongoClient('mongodb+srv://data_programming:dpfall2023#@cluster0.dkjfyrj.mongodb.net/?retryWrites=true&w=majority')
