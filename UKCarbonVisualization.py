@@ -4,7 +4,7 @@
 # In[10]:
 
 
-get_ipython().system('pip install dash pymongo')
+!pip install dash pymongo
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
